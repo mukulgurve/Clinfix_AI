@@ -1,3 +1,7 @@
+## 🚀 Try Clinfix AI on Hugging Face
+
+[![Open in Hugging Face](https://img.shields.io/badge/Run%20Clinfix%20AI%20App-HuggingFace-yellow?style=for-the-badge&logo=huggingface)](https://huggingface.co/spaces/mukulgurve/clinfix_ai)
+
 🧬 Clinfix_AI
 
 ✨ Premium AI-powered Clinical CSV Analyzer using Python & Gradio
