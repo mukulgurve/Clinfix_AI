@@ -1,129 +1,98 @@
-## 🚀 Try Clinfix AI on Hugging Face
+# 🔬 Clinfix AI – Clinical CSV Analyzer
 
+## 🚀 Try Clinfix AI on Hugging Face  
 [![Open in Hugging Face](https://img.shields.io/badge/Run%20Clinfix%20AI%20App-HuggingFace-yellow?style=for-the-badge&logo=huggingface)](https://huggingface.co/spaces/mukulgurve/clinfix_ai)
 
-🧬 Clinfix_AI
+---
 
-✨ Premium AI-powered Clinical CSV Analyzer using Python & Gradio
-Clinfix_AI is an intelligent, browser-based tool that helps clinical researchers, data managers, and students analyze, clean, and visualize clinical CSV datasets with zero coding.
-This AI automatically detects missing values, generates charts, fixes datasets, and lets you download polished reports (PDF/DOC) for clinical use.
+✨ **Clinfix_AI – Premium AI-powered Clinical CSV Analyzer (Python + Gradio)**  
+Clinfix_AI is an intelligent, browser-based tool that helps clinical researchers, data managers, and students analyze, clean, and visualize clinical CSV datasets — **with zero coding**.
 
-
-
-⭐ Key Features
-🔍 1. Automatic Data Analysis
-      📄 Dataset preview
-      📊 Summary statistics (mean, median, range, percentiles)
-      ⚠️ Missing value detection
-      🔎 Outlier detection
+This AI automatically detects missing values, generates charts, fixes datasets, and lets you download polished clinical reports (PDF/DOC).
 
 ---
 
-🩺 2. Missing Value Detection & Fixing
-Automatically identifies:
-      ⛔ Empty cells
-      🕳️ NaN values
-      🟦 Zero-filled values
-      🧩 Incorrect formats
+## ⭐ Key Features
 
-
-Fix missing values by:
-      ➕ Mean / Median
-      🔁 Mode
-      ⏭️ Forward Fill
-      ⏮️ Backward Fill
-      🗑️ Drop missing rows
+### 🔍 **1. Automatic Data Analysis**
+- 📄 Dataset preview  
+- 📊 Summary statistics (mean, median, range)  
+- ⚠️ Missing value detection  
+- 🔎 Outlier detection  
 
 ---
 
-📈 3. Graph & Visualization Generator
-Generates clinical-friendly charts including:
+### 🩺 **2. Missing Value Detection & Fixing**
+Identifies:
+- ⛔ Empty cells  
+- 🕳️ NaN values  
+- 🟦 Zero-filled values  
+- 🧩 Incorrect formats  
 
-      📊 Bar charts
-      📉 Histograms
-      📦 Box plots
-      🔥 Correlation heatmaps
-      📈 Line graphs
-      🧪 Scatter plots
-
----
-
-📥 4. Downloadable Reports
-You can download:
-
-      📂 Cleaned CSV file
-      🧾 Missing Value Report
-      📑 Summary Statistics Document
-      📄 PDF report
-      📝 DOCX report
-
-
-Perfect for: clinical submissions, audits, QC checks, and presentations.
----
-
-💻 5. Simple & Powerful Interface
- Built with Gradio UI, it works smoothly on:
-     📱 Mobile
-     💻 Laptop
-     🖥️ Desktop
-     🌐 Web browser
-
-No installation needed when deployed.
----
-
-🚀 Live Demo
-🔗 Coming Soon…
-
+Fix missing values using:
+- ➕ Mean / Median  
+- 🔁 Mode  
+- ⏭️ Forward Fill  
+- ⏮️ Backward Fill  
+- 🗑️ Drop missing rows  
 
 ---
 
-🛠️ Tech Stack
-    🐍 Python
-    🧮 Pandas
-    🔢 NumPy
-    🎨 Matplotlib & Seaborn
-    🎛️ Gradio
-    📘 python-docx
-    📕 FPDF
----
-
-📦 Installation Guide
-    git clone https://github.com/mukulguvve/Clinfix_AI.git
-    cd Clinfix_AI
-    pip install -r requirements.txt
-    python app.py
+### 📈 **3. Graph & Visualization Generator**
+Generates clinical-friendly charts:
+- 📊 Bar charts  
+- 📉 Histograms  
+- 📦 Box plots  
+- 🔥 Correlation heatmaps  
+- 📈 Line graphs  
+- 🧪 Scatter plots  
 
 ---
 
-🧠 How to Use
-    1. 📤 Upload your clinical CSV file
-    2. 🤖 AI auto-analyzes missing values & patterns
-    3. 🩺 Choose how to fix missing values
-    4. 📈 View charts & visualizations
-    5. 📥 Download cleaned dataset or reports
-    6. 🏁 Use for research, audits, or documentation
+### 📥 **4. Downloadable Reports**
+Export:
+- 📂 Cleaned CSV  
+- 🧾 Missing Value Report  
+- 📑 Summary Statistics Document  
+- 📄 PDF Report  
+- 📝 DOCX Report  
 
----
-📚 Use Cases
-    🧪 Clinical trial data analysis
-    🏥 Patient demographics summary
-    ⚕️ AE/SAE dataset cleaning
-    🔬 Research project reporting
-    🎓 Student clinical data assignments
-    📊 QC for pharmacovigilance data
-
-
+Perfect for clinical submissions, audits, QC checks, and presentations.
 
 ---
 
-👨‍💻 Developer
+### 💻 **5. Simple & Powerful Interface**
+Built with Gradio UI — works smoothly on:
+- 📱 Mobile  
+- 💻 Laptop  
+- 🖥️ Desktop  
+- 🌐 Browser  
 
-Mukul Gurve
-AI Enthusiast | Clinical Data Domain Learner
-
+No installation required when deployed online.
 
 ---
 
-⭐ Support the Project
+## 🚀 Live Demo  
+🔗 Already Live on HuggingFace  
+👉 https://huggingface.co/spaces/mukulgurve/clinfix_ai
 
-If you like the tool, please consider giving it a ⭐ STAR on GitHub — it motivates further development!
+---
+
+## 🛠️ Tech Stack
+- 🐍 Python  
+- 🧮 Pandas  
+- 🔢 NumPy  
+- 🎨 Matplotlib  
+- 🎛️ Gradio  
+- 📘 python-docx  
+- 📕 FPDF  
+
+---
+
+## 📦 Installation Guide
+
+```bash
+git clone https://github.com/mukulguvve/Clinfix_AI.git
+cd Clinfix_AI
+pip install -r requirements.txt
+python app.py
